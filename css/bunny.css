@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #222e50;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    transition: 0.4s all linear;
+    padding: 5px 10px;
+}
+
+ul li a:hover {
+    color: #bf0808;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #bf0808be;
+}
+
+.description {
+    margin-top: 7px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer {
+    background: #222e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.easteregg {
+    text-decoration: none;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    transition: 0.4s all linear;
+}
+
+.easteregg:hover {
+    color: #bf0808;
+}
