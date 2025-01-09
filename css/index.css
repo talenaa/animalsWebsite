@@ -1,0 +1,114 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #40200a;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.6rem;
+    font-weight: bold;
+    font-family: arial;
+}
+
+header p {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: arial;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    transition: 0.4s all linear;
+    padding: 5px 10px;
+}
+
+ul li a:hover {
+    color: #bf0808;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.beargif {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 320px;
+    margin-top: 17px;
+    border-radius: 7px;
+    border: 3px solid #c48989;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.animal-card {
+    background-color: white;
+    border: 3px solid #c48989;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px #000000ab;
+}
+
+.animal-card img {
+    width: 100%;
+    height: auto;
+}
+
+.animal-card .info {
+    padding: 15px;
+}
+
+.animal-card .info h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #8b4513;
+}
+
+.animal-card .info p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: #5d5d5d;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #40200a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+}

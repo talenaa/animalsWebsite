@@ -44,26 +44,6 @@ ul li a:hover {
     color: #bf0808;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-    padding: 20px;
-}
-
-.gallery img {
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px #000000e4;
-}
-
-.description {
-    margin-top: 7px;
-    font-family: arial;
-    font-size: 14px;
-    font-weight: bold;
-}
-
 footer {
     background: #222e50;
     color: white;
