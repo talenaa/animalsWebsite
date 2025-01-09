@@ -54,7 +54,7 @@ ul li a:hover {
 .gallery img {
     width: 100%;
     border-radius: 15px;
-    box-shadow: 0 4px 8px #bf0808be;
+    box-shadow: 0 4px 8px #000000e4;
 }
 
 .description {
