@@ -21,7 +21,28 @@ header {
     width: 100%;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
 
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    transition: 0.4s all linear;
+    padding: 5px 10px;
+}
+
+ul li a:hover {
+    color: #bf0808;
+}
 
 .section {
     padding: 20px;
@@ -49,8 +70,29 @@ header {
     text-align: center;
 }
 
-.ul {
-    margin-left: 20px;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 2px solid #a3a3a3;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
 }
 
 .grid {
