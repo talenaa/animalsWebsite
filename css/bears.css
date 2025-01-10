@@ -21,28 +21,7 @@ header {
     width: 100%;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
 
-ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: monospace;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    transition: 0.4s all linear;
-    padding: 5px 10px;
-}
-
-ul li a:hover {
-    color: #bf0808;
-}
 
 .section {
     padding: 20px;
@@ -70,8 +49,8 @@ ul li a:hover {
     text-align: center;
 }
 
-.history {
-    padding: 20px;
+.ul {
+    margin-left: 20px;
 }
 
 .grid {
