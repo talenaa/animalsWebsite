@@ -81,10 +81,10 @@ ul li a:hover {
 }
 
 .card {
-    border: 3px solid #cacaca;
+    border: 3px solid #acacac;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 2px 2px 5px #000000e1;
+    box-shadow: 6px 8px 5px #000000d5;
 }
 
 .card img {
