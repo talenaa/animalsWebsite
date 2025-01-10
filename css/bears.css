@@ -3,7 +3,7 @@ body {
     font-weight: bold;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #ebebeb;
 }
 
 header {
@@ -11,10 +11,10 @@ header {
     padding: 1rem;
     text-align: center;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 0.8rem;
 }
 
-section {
+.links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +42,63 @@ ul li a {
 
 ul li a:hover {
     color: #bf0808;
+}
+
+.section {
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habitat {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    border-radius: 7px;
+    border: 3px solid #a3a3a3;
+}
+
+.paragraph {
+    display: block;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.history {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 3px solid #cacaca;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px #000000e1;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px;
+}
+
+.card p {
+    margin: 10px;
+    font-size: 0.9em;
 }
 
 footer {
