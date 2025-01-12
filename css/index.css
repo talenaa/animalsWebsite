@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    color: #333;
 }
 
 header {
@@ -22,71 +21,20 @@ header p {
     font-family: arial;
 }
 
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: monospace;
-    font-size: 17px;
-    font-weight: bold;
-    position: relative;
-    transition: 0.4s all linear;
-    padding: 5px 10px;
-}
-
-ul li a:hover {
-    color: #bf0808;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-}
-
-.hero {
+.intro {
     text-align: center;
     padding: 1rem 1rem;
 }
 
-.hero h1 {
-    font-size: 2.7rem;
+.intro h1 {
+    font-size: 1.7rem;
     margin-bottom: 1rem;
 }
 
-.hero p {
-    font-size: 1rem;
+.intro p {
+    font-size: 1.2rem;
     font-family: arial;
     font-weight: bold;
-}
-
-.beargif {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 330px;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-.main-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
 }
 
 .mainTitle {
@@ -98,30 +46,61 @@ main {
     padding: 10px;
 }
 
-.animal-card {
-    background-color: white;
-    border: 3px solid #acacac;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 6px 7px 6px #000000c1;
+.text {
+    font-family: arial;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
 }
 
-.animal-card img {
+.mammals {
+    font-family: arial;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.animalCard {
+    background-color: white;
+    border: 3px solid #585858;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 6px 7px 6px #000000e1;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.animalCard:hover {
+    transform: translateY(-15px);
+    box-shadow: 6px 7px 6px #1f305f;
+}
+
+.animalCard a {
+    text-decoration: none;
+}
+
+.animalCard img {
     width: 100%;
     height: auto;
 }
 
-.animal-card .info {
+.animalCard .info {
     padding: 15px;
 }
 
-.animal-card .info h2 {
+.animalCard .info h2 {
     margin: 0;
     font-size: 1.5em;
     color: #000000;
 }
 
-.animal-card .info p {
+.animalCard .info p {
     margin: 10px 0 0;
     font-size: 1em;
     color: #000000;
