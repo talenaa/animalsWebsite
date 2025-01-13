@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    cursor: url(/css/img/cursor.cur), auto;
+}
+
+header {
+    background-color: #222e50;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #a31000;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    transition: 0.4s all linear;
+    padding: 5px 10px;
+}
+
+ul li a:hover {
+    color: #e35849;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.bannerText {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 20px;
+}
