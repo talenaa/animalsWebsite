@@ -31,3 +31,15 @@ if (currentHour < 12) {
 } else {
     header.textContent = 'Good Evening! Welcome to the Animal World!';
 }
+
+document.getElementById('backToTop').addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+function scrollToContent() {
+    const contentSection = document.getElementById('content');
+    contentSection.scrollIntoView({ behavior: 'smooth' });
+}

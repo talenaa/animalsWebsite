@@ -20,3 +20,10 @@ document.querySelectorAll('.social a img').forEach(icon => {
         icon.style.filter = 'brightness(1)';
     });
 });
+
+document.getElementById('backToTop').addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});

@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    cursor: url(/css/img/cursor.cur), auto;
 }
 
 header {
@@ -33,7 +34,7 @@ ul li a {
     text-decoration: none;
     color: #a31000;
     font-family: monospace;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
     position: relative;
     transition: 0.4s all linear;

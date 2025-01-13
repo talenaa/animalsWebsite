@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    cursor: url(/css/img/cursor.cur), auto;
 }
 
 header {
@@ -25,19 +26,81 @@ header p {
 }
 
 .intro {
-    text-align: center;
-    padding: 1rem 1rem;
+    position: relative;
+    background-image: url('/css/img/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.475);
+    z-index: 1;
+}
+
+.intro * {
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        background-size: contain;
+        background-position: top;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .intro {
+        background-size: contain;
+        height: 80vh;
+    }
 }
 
 .intro h1 {
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
 .intro p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.scrollBtn {
+    padding: 10px 20px;
     font-size: 1.2rem;
-    font-family: arial;
-    font-weight: bold;
+    background-color: #e8e8e8;
+    color: #0f0f0f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.scrollBtn:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.contentSection {
+    margin-top: 30px;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
 }
 
 .mainTitle {
@@ -91,7 +154,7 @@ h1 {
 
 .animalCard:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 12px #0000007c;
 }
 
 .animalCard img {
@@ -102,6 +165,7 @@ h1 {
 
 .animalCard a {
     text-decoration: none;
+    cursor: url(/css/img/cursor.cur), auto;
 }
 
 .animalCard .info {
@@ -121,7 +185,7 @@ h1 {
     font-weight: bold;
 }
 
-button {
+.top {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -134,7 +198,7 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover {
+.top:hover {
     background-color: #005bb5;
 }
 

@@ -10,17 +10,20 @@
     <body>
         <header>
             <h1>Welcome to the Animal world</h1>
-            <p>Curiosities, statistics, images, information, history, etc.</p>
+            <p>Curiosities, statistics, information, history, and more!</p>
         </header>
 
         <main>
             <div class="intro">
-                <h1>Read and discover amazing facts and stories about animals from around the globe.</h1>
-                <p>Learn about your favorite animals.</p>
+                <h1>Welcome to Our Page</h1>
+                <button class="scrollBtn" onclick="scrollToContent()">Explore our content</button>
             </div>
-
-            <h1 class="mainTitle">Preview of our content:</h1>
-            <p class="text">Choose your favorite animal, learn and discover about it.</p>
+            
+            <div id="content" class="contentSection">
+                <h2>Our content</h2>
+                <p>This is the content section. Here is where the adventure begins.</p>
+                <p class="text">Choose your favorite animal, learn and discover about it.</p>
+            </div>
 
             <h1 class="mammals">Mammals</h1>
             <div class="main-content">
@@ -28,7 +31,7 @@
                     <a href="panthers.html">
                         <img src="/css/img/panther.jpg" alt="black panther">
                         <div class="info">
-                            <h2>Panthers.</h2>
+                            <h2>Panthers</h2>
                             <p>One of the most feared and powerful predators throughout its natural environment.</p>
                         </div>
                     </a>
@@ -79,35 +82,35 @@
 
                 <div class="animalCard">
                     <a href="wolves.html">
-                        <img src="/css/img/wolf.jpeg" alt="wolf">
+                        <img src="/css/img/chameleon.jpg" alt="wolf">
                         <div class="info">
-                            <h2>Wolves</h2>
-                            <p>The largest members of the dog family.</p>
+                            <h2>Chameleons</h2>
+                            <p>Old World lizards best known for their ability to change body color.</p>
                         </div>
                     </a>
                 </div>
 
                 <div class="animalCard">
                     <a href="wolves.html">
-                        <img src="/css/img/wolf.jpeg" alt="wolf">
+                        <img src="/css/img/turtle.jpg" alt="wolf">
                         <div class="info">
-                            <h2>Wolves</h2>
-                            <p>The largest members of the dog family.</p>
+                            <h2>Turtles</h2>
+                            <p>Air-breathing reptiles that inhabit tropical and subtropical seas throughout the world.</p>
                         </div>
                     </a>
                 </div>
 
                 <div class="animalCard">
                     <a href="wolves.html">
-                        <img src="/css/img/wolf.jpeg" alt="wolf">
+                        <img src="/css/img/crocodile.jpg" alt="wolf">
                         <div class="info">
-                            <h2>Wolves</h2>
-                            <p>The largest members of the dog family.</p>
+                            <h2>Crocodile</h2>
+                            <p>Are any of about 27 species of generally large, ponderous, amphibious animals.</p>
                         </div>
                     </a>
                 </div>
             </section>
-            <button id="backToTop">Back to Top</button>
+            <button class="top" id="backToTop">Back to Top</button>
         </main>
         
         <footer>
