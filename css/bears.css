@@ -64,7 +64,7 @@ ul li a:hover {
 }
 
 .habitat:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .paragraph {
@@ -107,10 +107,19 @@ table tr:hover {
 }
 
 .card {
-    border: 3px solid #acacac;
-    border-radius: 8px;
+    margin: 20px;
+    border-radius: 7px;
+    border: 3px solid #535353;
+    box-shadow: 8px 6px 6px #000000b1;
     overflow: hidden;
-    box-shadow: 6px 8px 5px #000000d5;
+    transition: transform 0.3s, box-shadow 0.3s;
+    flex: 1 1 calc(250px - 20px);
+    max-width: 300px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
@@ -169,27 +178,46 @@ table tr:hover {
     background-color: #c0392b;
 }
 
-footer {
-    background: #222e50;
-    text-align: center;
-    padding: 1rem;
-    font-weight: bold;
-    color: #fff;
-    padding: 20px 10px;
-    margin-top: auto;
+button#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0073e6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.social {
+button#backToTop:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    font-weight: bold;
+    color: #fff;
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #222e50;
+    border-top: 3px solid #ccc;
+}
+
+footer .social {
     margin: 10px 0;
 }
 
-.social img {
+footer .social img {
     width: 40px;
-    border-radius: 10px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+    border-radius: 8px;
 }
 
-.social a {
-    margin: 0 10px;
+footer .social img:hover {
+    transform: scale(1.2);
 }
 
 .easteregg {
