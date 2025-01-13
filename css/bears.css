@@ -31,7 +31,7 @@ ul {
 
 ul li a {
     text-decoration: none;
-    color: #e74c3c;
+    color: #a31000;
     font-family: monospace;
     font-size: 17px;
     font-weight: bold;
@@ -41,7 +41,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #772a21;
+    color: #e35849;
 }
 
 .section {
