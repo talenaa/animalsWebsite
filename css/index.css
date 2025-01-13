@@ -77,7 +77,7 @@ header p {
 }
 
 .animalCard:hover {
-    transform: translateY(-15px);
+    transform: translateY(-23px);
     box-shadow: 6px 7px 6px #1f305f;
 }
 

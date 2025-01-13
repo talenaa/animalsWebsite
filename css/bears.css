@@ -41,7 +41,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #bf0808;
+    color: #e74c3c;
 }
 
 .section {
@@ -57,7 +57,7 @@ ul li a:hover {
 .habitat {
     display: flex;
     justify-content: center;
-    max-width: 500px;
+    width: 480px;
     border-radius: 7px;
     border: 3px solid #a3a3a3;
     transition: transform 0.5s;
@@ -127,6 +127,48 @@ table tr:hover {
     font-size: 0.9em;
 }
 
+.help {
+    padding: 20px;
+    text-align: center;
+}
+
+.help h2 {
+    font-size: 1.8rem;
+    color: #002346;
+}
+
+.help p {
+    color: #002346;
+    font-size: 18px;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.help button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.help a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.help button:hover {
+    background-color: #c0392b;
+}
+
 footer {
     background: #222e50;
     text-align: center;
@@ -161,5 +203,5 @@ footer {
 }
 
 .easteregg:hover {
-    color: #bf0808;
+    color: #e74c3c;
 }
