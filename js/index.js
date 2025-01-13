@@ -20,3 +20,14 @@ document.querySelectorAll('.social a img').forEach(icon => {
         icon.style.filter = 'brightness(1)';
     });
 });
+
+const header = document.querySelector('header h1');
+const currentHour = new Date().getHours();
+
+if (currentHour < 12) {
+    header.textContent = 'Good Morning! Welcome to the Animal World!';
+} else if (currentHour < 18) {
+    header.textContent = 'Good Afternoon! Welcome to the Animal World!';
+} else {
+    header.textContent = 'Good Evening! Welcome to the Animal World!';
+}
