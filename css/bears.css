@@ -31,7 +31,7 @@ ul {
 
 ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #e74c3c;
     font-family: monospace;
     font-size: 17px;
     font-weight: bold;
@@ -41,7 +41,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #e74c3c;
+    color: #772a21;
 }
 
 .section {
@@ -156,26 +156,6 @@ table tr:hover {
     display: flex;
     justify-content: center;
     gap: 10px;
-}
-
-.help button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #e74c3c;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.help a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.help button:hover {
-    background-color: #c0392b;
 }
 
 button#backToTop {
