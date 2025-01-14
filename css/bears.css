@@ -45,6 +45,17 @@ ul li a:hover {
     color: #e35849;
 }
 
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
 .section {
     padding: 20px;
 }
@@ -163,17 +174,18 @@ button#backToTop {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #0073e6;
-    color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #545454;
+    color: #ffffff;
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 button#backToTop:hover {
-    background-color: #005bb5;
+    background-color: #989898;
 }
 
 footer {

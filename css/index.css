@@ -185,21 +185,22 @@ h1 {
     font-weight: bold;
 }
 
-.top {
+button#backToTop {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #0073e6;
-    color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #545454;
+    color: #ffffff;
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
-.top:hover {
-    background-color: #005bb5;
+button#backToTop:hover {
+    background-color: #989898;
 }
 
 footer {
