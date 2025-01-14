@@ -60,6 +60,20 @@ ul li a:hover {
     padding: 20px;
 }
 
+.packs {
+    display: flex;
+    justify-content: center;
+}
+
+.packs img {
+    width: 400px;
+    padding: 10px;
+}
+
+.h1 {
+    text-align: center;
+}
+
 .info {
     display: flex;
     align-items: center;
