@@ -56,16 +56,126 @@ ul li a:hover {
     height: auto;
 }
 
-.bannerText {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
 .section {
     padding: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: arial;
+    margin: 20px auto;
+    max-width: 340px;
+}
+
+.wolfPhoto img {
+    width: 290px;
+    object-fit: cover;
+    box-shadow: 6px 8px 7px #333;
+}
+
+.details {
+    margin: 10px;
+    text-align: center;
+}
+
+.details h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    color: #232323;
+}
+
+.details h2 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-style: italic;
+    color: #620606;
+}
+
+.details .status {
+    font-size: 16px;
+    margin: 10 0px;
+    color: #383838;
+}
+
+.section#grayWolf {
+    width: 75%;
+    margin: 20px auto;
+    border: 2px solid #adadad;
+    box-shadow: 6px 4px 5px #000000c2;
+}
+
+.section h3 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.section#grayWolf p {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+}
+
+button#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #545454;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#backToTop:hover {
+    background-color: #989898;
+}
+
+footer {
+    font-weight: bold;
+    color: #fff;
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #222e50;
+    border-top: 3px solid #ccc;
+}
+
+footer .social {
+    margin: 10px 0;
+}
+
+footer .social img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+    border-radius: 8px;
+}
+
+footer .social img:hover {
+    transform: scale(1.2);
+}
+
+.easteregg {
+    text-decoration: none;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    transition: 0.4s all linear;
+}
+
+.easteregg:hover {
+    color: #e74c3c;
 }
