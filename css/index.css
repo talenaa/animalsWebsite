@@ -40,22 +40,6 @@ header p {
     padding: 20px;
 }
 
-.intro::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.475);
-    z-index: 1;
-}
-
-.intro * {
-    position: relative;
-    z-index: 2;
-}
-
 @media (max-width: 768px) {
     .intro {
         background-size: contain;
@@ -119,7 +103,7 @@ header p {
     text-align: center;
 }
 
-.main-content {
+.mainContent {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
