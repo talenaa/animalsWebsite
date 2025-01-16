@@ -163,14 +163,18 @@ ul li a:hover {
 
 .galleryContainer h1 {
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 1.8rem;
     color: #444;
+}
+
+.galleryContainer h2 {
+    font-size: 1.3em;
 }
 
 .galleryItem {
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.662);
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;

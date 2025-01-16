@@ -32,7 +32,7 @@ ul {
 
 ul li a {
     text-decoration: none;
-    color: #a31000;
+    color: #7a7a7a;
     font-family: monospace;
     font-size: 18px;
     font-weight: bold;
@@ -42,7 +42,16 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #e35849;
+    color: #c1c1c1;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.images img {
+    width: 470px;
 }
 
 .banner {
@@ -58,6 +67,7 @@ ul li a:hover {
 
 .section {
     padding: 20px;
+    text-align: center;
 }
 
 .info {
