@@ -156,6 +156,88 @@ ul li a:hover {
     box-shadow: 6px 4px 5px #000000c2;
 }
 
+.galleryContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+.galleryContainer h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #444;
+}
+
+.galleryItem {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.662);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    flex: 1 1 calc(250px - 20px);
+}
+
+.galleryItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.galleryItem:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.modalContent {
+    margin: auto;
+    display: block;
+    max-width: 75%;
+    max-height: 75%;
+    border-radius: 7px;
+}
+
+.modal .close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal .close:hover {
+    color: #e11c1c;
+}
+
+#caption {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
 button#backToTop {
     position: fixed;
     bottom: 20px;
