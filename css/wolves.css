@@ -63,7 +63,7 @@ ul li a:hover {
 
 .packs img {
     width: 400px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .hunting {
@@ -120,7 +120,7 @@ ul li a:hover {
     color: #383838;
 }
 
-.section#grayWolf {
+.section#wolves {
     width: 75%;
     margin: 20px auto;
     border: 2px solid #adadad;
