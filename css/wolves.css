@@ -207,10 +207,10 @@ ul li a:hover {
 .galleryItem {
     position: relative;
     overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.662);
+    border-radius: 3px;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.888);
     cursor: pointer;
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .galleryItem img {
@@ -220,8 +220,9 @@ ul li a:hover {
     overflow: hidden;
 }
 
-.galleryItem:hover img {
+.galleryItem:hover {
     transform: scale(1.05);
+    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.351);
 }
 
 .modal {
