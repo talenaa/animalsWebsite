@@ -7,42 +7,68 @@ body {
     cursor: url(/css/img/cursor.cur), auto;
 }
 
-header {
-    background-color: #222e50;
-    padding: 1rem;
-    text-align: center;
-    color: #ffffff;
-    font-size: 0.8rem;
+.headerImage {
+    background-image: url(/css/img/banners/bannerbear.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
-.links {
+.headerImage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000007b;
+}
+
+.headerContent {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.headerContent h1 {
+    font-size: 2.5rem;
+}
+
+.headerContent p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin: 5px 0 20px;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+nav {
+    background-color: #1e2a38;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
+    padding: 10px 0;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    list-style: none;
+    gap: 15px;
 }
 
 ul li a {
     text-decoration: none;
-    color: #7a7a7a;
-    font-family: monospace;
-    font-size: 18px;
-    font-weight: bold;
+    color: #ecf0f1;
+    font-size: 1rem;
     position: relative;
-    transition: 0.4s all linear;
+    transition: 0.5s ease;
     padding: 5px 10px;
 }
 
 ul li a:hover {
-    color: #c1c1c1;
+    color: #e67e22;
 }
 
 .images {
