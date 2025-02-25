@@ -76,8 +76,8 @@ ul li a:hover {
 }
 
 .section span {
-    color: #2e2e2e;
-    font-weight: 800;
+    color: #3f3f3f;
+    font-weight: 900;
 }
 
 .images {
@@ -86,6 +86,6 @@ ul li a:hover {
 }
 
 .images img {
-    width: 410px;
+    width: 430px;
     padding: 10px;
 }
