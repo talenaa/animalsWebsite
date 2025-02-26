@@ -67,7 +67,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #e67e22;
+    color: #c0702a;
 }
 
 .section {
@@ -76,8 +76,12 @@ ul li a:hover {
 }
 
 .section span {
-    color: #3f3f3f;
+    color: #103154;
     font-weight: 900;
+}
+
+.section h2 {
+    color: #c0702a;
 }
 
 .images {
