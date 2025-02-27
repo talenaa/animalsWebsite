@@ -71,7 +71,7 @@ ul li a:hover {
 }
 
 .section {
-    padding: 20px;
+    padding: 27px;
     text-align: center;
 }
 
@@ -91,5 +91,9 @@ ul li a:hover {
 
 .images img {
     width: 430px;
+    padding: 10px;
+}
+
+.li {
     padding: 10px;
 }
