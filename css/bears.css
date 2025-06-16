@@ -185,17 +185,20 @@ table tr:hover {
 }
 
 .help {
+    border-radius: 15px;
+    margin: 40px 40px;
+    background-color: #80808041;
     padding: 20px;
     text-align: center;
 }
 
 .help h2 {
     font-size: 1.8rem;
-    color: #002346;
+    color: #e70b0b;
 }
 
 .help p {
-    color: #002346;
+    color: #000000;
     font-size: 18px;
 }
 
