@@ -95,9 +95,10 @@ header p {
 }
 
 .section {
-    background-color: #9b9b9b50;
-    padding: 20px;
-    margin-top: 40px;
+    background-color: #97979762;
+    margin: 40px 40px;  
+    border-radius: 20px;
+    border: 1px #1d1d1d solid;
 }
 
 .section h1 {
