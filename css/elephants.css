@@ -48,7 +48,6 @@ nav {
     background-color: #1e2a38;
     display: flex;
     justify-content: center;
-    border-radius: 7px;
     padding: 0 1em;
 }
 
@@ -71,4 +70,19 @@ ul li a {
 
 ul li a:hover {
     color: #c52222;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.images img {
+    width: 430px;
+    padding: 10px;
 }
