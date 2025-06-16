@@ -43,3 +43,32 @@ body {
     font-weight: lighter;
     opacity: 0.8;
 }
+
+nav {
+    background-color: #1e2a38;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    padding: 0 1em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 1rem;
+    font-family: arial;
+    font-weight: bold;
+    position: relative;
+    transition: 0.5s ease;
+    padding: 0 10px;
+}
+
+ul li a:hover {
+    color: #c52222;
+}
