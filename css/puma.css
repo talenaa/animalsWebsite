@@ -123,6 +123,24 @@ footer .social img:hover {
     transform: scale(1.2);
 }
 
+button#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #545454;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#backToTop:hover {
+    background-color: #989898;
+}
+
 .easteregg {
     text-decoration: none;
     color: #fff;
