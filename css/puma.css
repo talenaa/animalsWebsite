@@ -122,3 +122,13 @@ footer .social img {
 footer .social img:hover {
     transform: scale(1.2);
 }
+
+.easteregg {
+    text-decoration: none;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    transition: 0.4s all linear;
+}
