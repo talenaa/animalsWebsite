@@ -87,6 +87,24 @@ ul li a:hover {
     padding: 10px;
 }
 
+button#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #545454;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#backToTop:hover {
+    background-color: #989898;
+}
+
 footer {
     font-weight: bold;
     color: #fff;
