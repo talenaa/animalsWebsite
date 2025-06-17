@@ -100,6 +100,37 @@ span {
     transform: scale(1.3);
 }
 
+.nav {
+    box-shadow: 9px 8px 10px #0000007b;
+    margin: 40px 40px;
+    background-color: #4b4b4ba9;
+    display: flex;
+    justify-content: center;
+    padding: 0 1em;
+}
+
+.a {
+    color: #d3d3d3;
+    font-size: 1rem;
+    font-family: arial;
+    font-weight: bold;
+    position: relative;
+    transition: 0.5s ease;
+    padding: 0 10px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.grid img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+}
+
 button#backToTop {
     position: fixed;
     bottom: 20px;
