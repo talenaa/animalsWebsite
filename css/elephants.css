@@ -86,3 +86,28 @@ ul li a:hover {
     width: 430px;
     padding: 10px;
 }
+
+footer {
+    font-weight: bold;
+    color: #fff;
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #222e50;
+    border-top: 3px solid #ccc;
+}
+
+footer .social {
+    margin: 10px 0;
+}
+
+footer .social img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+    border-radius: 8px;
+}
+
+footer .social img:hover {
+    transform: scale(1.2);
+}
