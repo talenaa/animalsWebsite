@@ -87,6 +87,19 @@ ul li a:hover {
     padding: 10px;
 }
 
+span {
+    font-weight: bold;
+    color: #c52222;
+}
+
+.trunks {
+    transition: transform 0.5s;
+}
+
+.trunks:hover {
+    transform: scale(1.3);
+}
+
 button#backToTop {
     position: fixed;
     bottom: 20px;
