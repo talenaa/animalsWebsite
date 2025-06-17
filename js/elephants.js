@@ -11,3 +11,12 @@ window.addEventListener('scroll', () => {
 backToTopButton.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+document.querySelectorAll('.social a img').forEach(icon => {
+    icon.addEventListener('mouseenter', () => {
+        icon.style.filter = 'brightness(1.5)';
+    });
+    icon.addEventListener('mouseleave', () => {
+        icon.style.filter = 'brightness(1)';
+    });
+});
