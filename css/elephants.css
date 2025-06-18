@@ -73,7 +73,7 @@ ul li a:hover {
 }
 
 .section {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -128,7 +128,7 @@ span {
 .grid img {
     max-width: 100%;
     height: auto;
-    width: 300px;
+    width: 400px;
 }
 
 button#backToTop {
