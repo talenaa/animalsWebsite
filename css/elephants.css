@@ -125,10 +125,26 @@ span {
     gap: 20px;
 }
 
-.grid img {
+.mahouts {
+    text-align: center;
+}
+
+.mahouts img {
     max-width: 100%;
-    height: auto;
-    width: 400px;
+    height: 300px;
+    display: block;
+    width: 500px;
+}
+
+.oozies {
+    text-align: center;
+}
+
+.oozies img {
+    max-width: 100%;
+    height: 300px;
+    display: block;
+    width: 500px;
 }
 
 button#backToTop {
