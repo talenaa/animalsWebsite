@@ -150,3 +150,7 @@ button#backToTop:hover {
     position: relative;
     transition: 0.4s all linear;
 }
+
+.easteregg:hover {
+    color: #c52222;
+}
