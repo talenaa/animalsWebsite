@@ -141,6 +141,7 @@ ul li a {
 }
 
 ul li a:hover {
+    font-size: 1.2rem;
     color: #c52222;
 }
 
